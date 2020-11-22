@@ -117,7 +117,8 @@ public class Main implements ModInitializer
         if (player != null) {player.sendMessage(Text.of(text), false);}
     }
 
-    public double round(double value, int places) {
+    public double round(double value, int places)
+    {
         if (places < 0) throw new IllegalArgumentException();
 
         BigDecimal bd = new BigDecimal(Double.toString(value));
