@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "ccmod",
+  "version": "1.0",
+
+  "name": "Coordinates Convertor Mod",
+  "description": "This mod converts your current position coordinates.",
+  "authors": [
+    "scaldings"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ccmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.scaldings.ccmod.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
